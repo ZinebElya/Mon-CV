@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	margin: 0px;
+	padding: 0px;
+  }
+  
+
+  
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.8;
+  background-color: rgb(8 165 136);
+}
+  
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  flex-direction: row;
+}
+ 
+  
+  
+.zone1 {
+  float: left;
+  position: initial;
+  background-color: rgb(13 134 112);
+  padding: 20px;
+  flex: 40%;
+}
+  
+.zone2 {
+  float: left;
+  position: initial;
+  padding: 20px;
+  flex: 60%;
+}
+  
+.nom {
+  color: #f1d403;
+  font-size: 40px;
+  font-weight:900;
+}
+
+.poste {
+  color: #f1d403;
+  font-size: 36px;
+}
+  
+.title {
+  color: #f1d403;
+}
+  
+
+progress {
+  display:block;
+  height: 12px;
+}
+
+  /* For Firefox */
+  progress::-moz-progress-bar {
+	background: rgb(189 164 40);
+}
+
+/* For Chrome or Safari */
+progress::-webkit-progress-value {
+	background: rgb(189 164 40);
+}
+
+/* For IE10 */
+progress {
+	background: rgb(189 164 40);
+}
+
+@media only screen and (max-width:768px) {
+	.container {   
+		flex-direction: column;
+	  } 
+}
+
+
+
+
+
